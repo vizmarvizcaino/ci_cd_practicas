@@ -4,10 +4,10 @@ import React from 'react';
 
 
 describe('Contacto component', () => {
-    test('la caja de texto se encuentra en el documento', () => {
-        render(<Contacto />);
-        const tittle = screen.getByText(/PENDIENTE POR DESARROLLAR/i);
+  test('la caja de texto se encuentra en el documento', () => {
+    render(<Contacto />);
+    const tittle = screen.getByText(/PENDIENTE POR DESARROLLAR/i);
 
-        expect(tittle).toBeInTheDocument();
-    });
+    expect(tittle).toBeInTheDocument();
+  });
 })
