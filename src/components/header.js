@@ -6,7 +6,6 @@ import PortafolioWeb from '../page/Portafolio-Web';
 import Contacto from '../page/Contacto';
 
 function Header () {
-    var hello = 'holas'
     return (
         <div className="container">
             <div className="navbar">
