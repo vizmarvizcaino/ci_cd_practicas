@@ -10,7 +10,7 @@ function Header() {
     <div className="container">
       <div className="navbar">
 
-              <Link href='/'><h2>VIZMAR V.</h2></Link>
+        <Link href='/'><h2>VIZMAR V.</h2></Link>
 
         <ul>
           <li><Link href='/'><a>INICIO</a></Link></li>
