@@ -1,4 +1,6 @@
 import '../stylesheet/portafolio-web.css';
+import React from 'react'
+
 function PortafolioWeb () {
     return (
         <div className="portafolio-web">

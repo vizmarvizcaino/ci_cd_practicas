@@ -1,5 +1,5 @@
 import '../stylesheet/header.css';
-import bgImagen from '../assets/bg-image.jpg'
+import React from 'react';
 import { Link, Route } from "wouter";
 import SobreMi from '../page/Sobre-Mi';
 import PortafolioWeb from '../page/Portafolio-Web';
