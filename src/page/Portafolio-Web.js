@@ -31,12 +31,10 @@ function PortafolioWeb() {
           <li><p>CMS Wordpress, CMS personalizado desde 0</p></li>
           <li><p>Entornos de servidor WAMP y XAMPP</p></li>
         </ul>
-
         <h2>Posicionamiento SEO</h2>
         <ul>
           <li><p>Poscionamiento web en buscadores</p></li>
         </ul>
-
         <h2>Redes Sociales</h2>
         <ul>
           <li><p>Facebook</p></li>
@@ -45,7 +43,6 @@ function PortafolioWeb() {
           <li><p>Pinterest</p></li>
         </ul>
       </div>
-
     </div>
   )
 }

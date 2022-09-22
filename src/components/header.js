@@ -9,9 +9,7 @@ function Header() {
   return (
     <div className="container">
       <div className="navbar">
-
         <Link href='/'><h2>VIZMAR V.</h2></Link>
-
         <ul>
           <li><Link href='/'><a>INICIO</a></Link></li>
           <li><Link href='/sobre-mi'><a>SOBRE MI</a></Link></li>
