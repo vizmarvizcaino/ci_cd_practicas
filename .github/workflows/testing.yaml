@@ -7,15 +7,15 @@ on:
       - main
 
 jobs:
-  #  lint:
-  #   name: Check the source code
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #     - name: Install packages
-  #       run: npm i
-  #     - name: Lint
-  #       run: npm run lint
+   lint:
+    name: Check the source code
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install packages
+        run: npm i
+      - name: Lint
+        run: npm run lint
 
   test: # step para testear nuestra app react
     runs-on: ubuntu-latest
