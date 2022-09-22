@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-   lint:
+  lint:
     name: Check the source code
     runs-on: ubuntu-latest
     steps:
@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: "16.17"
+          node-version: "16.16"
       - name: Installing Dependencies
         run: npm i
 
