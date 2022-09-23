@@ -34,7 +34,7 @@ function PortafolioWeb() {
 
         <h2>Posicionamiento SEO</h2>
         <ul>
-          <li><p>Poscionamiento web en buscadores</p></li>
+          <li><p>Poscionamiento web en Buscadores</p></li>
         </ul>
 
         <h2>Redes Sociales</h2>
