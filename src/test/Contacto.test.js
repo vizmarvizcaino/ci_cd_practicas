@@ -6,7 +6,7 @@ import React from 'react';
 describe('Contacto component', () => {
   test('la caja de texto se encuentra en el documento', () => {
     render(<Contacto />);
-    const tittle = screen.getByText(/PENDIENTE POR DESARROLLAR/i);
+    const tittle = screen.getByText(/Ponte en Contacto/i);
 
     expect(tittle).toBeInTheDocument();
   });
